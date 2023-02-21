@@ -1,0 +1,19 @@
+.grid--index{
+    @include contenedor_grid_pages (3fr 1fr, auto auto auto, "encabezado encabezado" "cuerpo cuerpo" "pie pie");
+}
+
+.header {
+    grid-area: encabezado;
+    background-color: map-get($paleta_de_colores_pagina, fondo1);
+    background-image:url(../assets/img/650_1200.jpg);
+}
+
+.main {
+    grid-area: cuerpo;
+    background-color: map-get($paleta_de_colores_pagina, fondo2);
+}
+
+.footer {
+    grid-area: pie;
+    background-color: map-get($paleta_de_colores_pagina, fondo3);
+}

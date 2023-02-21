@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid--index {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "encabezado encabezado" "cuerpo cuerpo" "pie pie";
+}
+
+.header {
+  grid-area: encabezado;
+  background-color: rgba(0, 0, 255, 0.74);
+  background-image: url(../assets/img/650_1200.jpg);
+}
+
+.main {
+  grid-area: cuerpo;
+  background-color: rgba(0, 0, 255, 0.495);
+}
+
+.footer {
+  grid-area: pie;
+  background-color: rgba(0, 0, 255, 0.148);
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-evenly;
+}
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  list-style-type: none;
+}
+.nav ul li {
+  display: flex;
+  align-content: space-around;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 5px;
+  background-color: blue;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: crimson;
+}
+
+.grid--div {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "foto texto2 foto2 texto";
+  gap: 0px;
+}
+
+.area--foto {
+  grid-area: foto;
+  border-style: double;
+}
+
+.area--texto {
+  grid-area: texto2;
+  border-style: double;
+}
+
+.area--foto2 {
+  grid-area: foto2;
+  border-style: double;
+}
+
+.area--texto2 {
+  grid-area: texto;
+  border-style: double;
+}
+
+.header--grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: "logo" "navegar";
+  gap: 0px;
+}
+
+.header--div {
+  grid-area: logo;
+}
+
+.header--nav {
+  margin-top: 35px;
+  grid-area: navegar;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.footer--grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-template-areas: "logo-footer" "redes-sociales" "telefonos";
+  gap: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer--logo {
+  display: flex;
+  grid-area: logo-footer;
+  margin-top: 10px;
+}
+
+.footer--sociales {
+  grid-area: redes-sociales;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer--telefonos {
+  grid-area: telefonos;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 10px;
+}/*# sourceMappingURL=main.css.map */

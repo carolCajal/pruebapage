@@ -1,0 +1,70 @@
+.grid--div {
+    @include contenedor_grid (auto auto, auto auto, "foto texto2 foto2 texto", 0px);
+
+}
+
+.area--foto {
+    grid-area: foto;
+    border-style: double;
+}
+
+.area--texto {
+    grid-area: texto2;
+    border-style: double;
+}
+
+.area--foto2 {
+    grid-area: foto2;
+    border-style: double;
+}
+
+.area--texto2 {
+    grid-area: texto;
+    border-style: double;
+}
+
+.header--grid {
+    @include contenedor_grid (auto auto, auto, "logo" "navegar", 0px);
+}
+
+.header--div {
+    grid-area: logo;
+}
+
+.header--nav {
+    margin-top: 35px;
+    grid-area: navegar;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer--grid {
+    @include contenedor_grid (auto auto auto, auto, "logo-footer" "redes-sociales" "telefonos", 0px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer--logo{
+    display: flex;
+    grid-area: logo-footer;
+    margin-top: 10px;
+}
+
+.footer--sociales{
+    grid-area: redes-sociales;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.footer--telefonos {
+    grid-area: telefonos;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10px;
+
+}
