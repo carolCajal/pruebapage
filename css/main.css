@@ -13,18 +13,18 @@
 
 .header {
   grid-area: encabezado;
-  background-color: rgba(0, 0, 255, 0.74);
+  background-color: rgba(0, 255, 200, 0.74);
   background-image: url(../assets/img/650_1200.jpg);
 }
 
 .main {
   grid-area: cuerpo;
-  background-color: rgba(0, 0, 255, 0.495);
+  background-color: rgba(0, 55, 255, 0.733);
 }
 
 .footer {
   grid-area: pie;
-  background-color: rgba(0, 0, 255, 0.148);
+  background-color: rgba(0, 42, 255, 0.427);
 }
 
 .logo {
