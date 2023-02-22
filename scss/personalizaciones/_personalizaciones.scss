@@ -14,19 +14,20 @@
     ul {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-items: flex-start;
+        justify-content: space-between;
         align-items: center;
         list-style: none;
         list-style-type: none;
 
         li {
             display: flex;
-            align-content: space-around;
+            align-content: space-evenly;
             text-decoration: none;
             border-radius: 3px;
             padding: 4px;
             margin: 5px;
-            background-color: blue;
+            background-color: rgb(4, 255, 0);
             a {
                 text-decoration: none;
                 color: crimson;
@@ -36,4 +37,31 @@
     
     }
 
+}
+
+.div {
+    display: flex;
+    justify-items: center;
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.facebook {
+    border-radius: 50%;
+    background-color: map-get($paleta_colores,backgraunds-pst);
+    color: map-get($paleta_colores, secundario);
+}
+
+.whatsapp {
+    border-radius: 25%;
+    background-color: map-get($paleta_colores, primario);
+    color: map-get($paleta_colores, backgraunds-pst);
+}
+
+.linkedin {
+    border-radius: 50%;
+    background-color: map-get($paleta_colores, backgraunds-pst);
+    color: map-get($paleta_colores, terciario);
 }

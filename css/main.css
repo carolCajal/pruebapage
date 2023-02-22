@@ -13,18 +13,18 @@
 
 .header {
   grid-area: encabezado;
-  background-color: rgba(0, 255, 200, 0.74);
+  background-color: #72b9f2;
   background-image: url(../assets/img/650_1200.jpg);
 }
 
 .main {
   grid-area: cuerpo;
-  background-color: rgba(0, 55, 255, 0.733);
+  background-color: #8dcbf5;
 }
 
 .footer {
   grid-area: pie;
-  background-color: rgba(0, 42, 255, 0.427);
+  background-color: #a7dcf9;
 }
 
 .logo {
@@ -41,23 +41,51 @@
 .nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-items: flex-start;
+  justify-content: space-between;
   align-items: center;
   list-style: none;
   list-style-type: none;
 }
 .nav ul li {
   display: flex;
-  align-content: space-around;
+  align-content: space-evenly;
   text-decoration: none;
   border-radius: 3px;
   padding: 4px;
   margin: 5px;
-  background-color: blue;
+  background-color: rgb(4, 255, 0);
 }
 .nav ul li a {
   text-decoration: none;
   color: crimson;
+}
+
+.div {
+  display: flex;
+  justify-items: center;
+}
+.div h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook {
+  border-radius: 50%;
+  background-color: azure;
+  color: blue;
+}
+
+.whatsapp {
+  border-radius: 25%;
+  background-color: green;
+  color: azure;
+}
+
+.linkedin {
+  border-radius: 50%;
+  background-color: azure;
+  color: rgb(78, 78, 244);
 }
 
 .grid--div {
