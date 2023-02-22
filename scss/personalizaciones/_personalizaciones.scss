@@ -6,31 +6,26 @@
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: space-evenly;
+    justify-content: end;
     
-    
-
     ul {
         display: flex;
         flex-direction: row;
         justify-items: flex-start;
-        justify-content: space-between;
-        align-items: center;
         list-style: none;
         list-style-type: none;
 
         li {
             display: flex;
-            align-content: space-evenly;
             text-decoration: none;
-            border-radius: 3px;
+            border-style:outset;
+            border-radius: 5px;
             padding: 4px;
             margin: 5px;
-            background-color: rgb(4, 255, 0);
+            background-color: map-get($paleta_colores, terciario);
             a {
                 text-decoration: none;
-                color: crimson;
+                color: black;
             }
         
         }

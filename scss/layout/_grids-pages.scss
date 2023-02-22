@@ -4,16 +4,20 @@
 
 .header {
     grid-area: encabezado;
+    border-style:groove;
     background-color: map-get($paleta_de_colores_pagina, fondo1);
     background-image:url(../assets/img/650_1200.jpg);
 }
 
 .main {
     grid-area: cuerpo;
+    border-style: double;
+    border-color: map-get($paleta_de_colores_pagina, fondo1);
     background-color: map-get($paleta_de_colores_pagina, fondo2);
 }
 
 .footer {
     grid-area: pie;
+    border-style: double;
     background-color: map-get($paleta_de_colores_pagina, fondo3);
 }
