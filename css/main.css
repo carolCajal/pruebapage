@@ -64,11 +64,14 @@
 
 .div {
   display: flex;
-  justify-items: center;
+  justify-content: center;
 }
 .div h2 {
   display: flex;
-  justify-content: center;
+  border-style: double;
+  border-color: green;
+  font-size: 25px;
+  color: azure;
 }
 
 .facebook {

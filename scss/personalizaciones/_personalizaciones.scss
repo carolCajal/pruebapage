@@ -36,10 +36,13 @@
 
 .div {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     h2{
         display: flex;
-        justify-content: center;
+        border-style: double;
+        border-color: map-get($paleta_colores, primario);
+        font-size: 25px;
+        color: map-get($paleta_colores, backgraunds-pst);
     }
 }
 
