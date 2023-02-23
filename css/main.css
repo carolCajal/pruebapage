@@ -15,7 +15,7 @@
   grid-area: encabezado;
   border-style: groove;
   background-color: #72b9f2;
-  background-image: url(../assets/img/650_1200.jpg);
+  background-image: url(../assets/img/banner-para-header.jpg);
 }
 
 .main {
@@ -32,7 +32,7 @@
 }
 
 .logo {
-  width: 100px;
+  width: 130px;
   border-radius: 50%;
 }
 
@@ -90,6 +90,16 @@
   border-radius: 50%;
   background-color: azure;
   color: rgb(78, 78, 244);
+}
+
+.imagenes--html, .imagenes--css {
+  margin-top: 15px;
+  margin-left: 75px;
+  border-radius: 30%;
+}
+
+.imagenes--css {
+  margin-top: 0px;
 }
 
 .grid--div {

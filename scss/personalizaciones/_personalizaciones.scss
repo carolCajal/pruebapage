@@ -1,5 +1,5 @@
 .logo {
-    width: 100px;
+    width: 130px;
     border-radius: 50%;
 }
 
@@ -62,4 +62,15 @@
     border-radius: 50%;
     background-color: map-get($paleta_colores, backgraunds-pst);
     color: map-get($paleta_colores, terciario);
+}
+
+.imagenes--html {
+    margin-top: 15px;
+    margin-left: 75px;
+    border-radius: 30%;
+}
+
+.imagenes--css {
+    @extend .imagenes--html;
+    margin-top: 0px;
 }
