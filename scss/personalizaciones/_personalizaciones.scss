@@ -66,11 +66,26 @@
 
 .imagenes--html {
     margin-top: 15px;
-    margin-left: 75px;
+    margin-left: 90px;
+    margin-right: auto;
     border-radius: 30%;
 }
 
 .imagenes--css {
     @extend .imagenes--html;
-    margin-top: 0px;
+    margin-top: 100px;
+}
+
+.imagenes--scss {
+    width: 175px;
+    height: 249px;
+    border-radius: 30%;
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-right: auto;
+}
+
+.imagenes--seo {
+    @extend .imagenes--scss;
+    margin-top: 100px;
 }
