@@ -11,24 +11,43 @@
   grid-template-areas: "encabezado encabezado" "cuerpo cuerpo" "pie pie";
 }
 
-.header {
+.header, .header--exp_laboral {
   grid-area: encabezado;
   border-style: groove;
   background-color: #72b9f2;
   background-image: url(../assets/img/banner-para-header.jpg);
 }
 
-.main {
+.main, .main--exp_laboral {
   grid-area: cuerpo;
   border-style: double;
   border-color: #72b9f2;
   background-color: #8dcbf5;
 }
 
-.footer {
+.footer, .footer--exp_laboral {
   grid-area: pie;
   border-style: double;
   background-color: #a7dcf9;
+}
+
+.grid--exp--laboral {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "encabezado1" "cuerpo1" "pie1";
+}
+
+.header--exp_laboral {
+  grid-area: encabezado1;
+}
+
+.main--exp_laboral {
+  grid-area: cuerpo1;
+}
+
+.footer--exp_laboral {
+  grid-area: pie1;
 }
 
 .logo {

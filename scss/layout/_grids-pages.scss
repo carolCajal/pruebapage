@@ -21,3 +21,22 @@
     border-style: double;
     background-color: map-get($paleta_de_colores_pagina, fondo3);
 }
+
+.grid--exp--laboral{
+    @include contenedor_grid_pages (3fr, auto auto auto, "encabezado1" "cuerpo1" "pie1");
+}
+
+.header--exp_laboral {
+    @extend .header;
+    grid-area: encabezado1;
+}
+
+.main--exp_laboral {
+    @extend .main;
+    grid-area: cuerpo1;
+}
+
+.footer--exp_laboral {
+    @extend .footer;
+    grid-area: pie1;
+}
