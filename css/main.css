@@ -44,6 +44,7 @@
 
 .main--exp_laboral {
   grid-area: cuerpo1;
+  border-color: black;
 }
 
 .footer--exp_laboral {
