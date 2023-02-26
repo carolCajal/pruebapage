@@ -42,7 +42,7 @@
         border-style: double;
         border-color: map-get($paleta_colores, primario);
         font-size: 25px;
-        color: map-get($paleta_colores, backgraunds-pst);
+        color: black;
     }
 }
 
@@ -88,4 +88,10 @@
 .imagenes--seo {
     @extend .imagenes--scss;
     margin-top: 100px;
+}
+
+.h2--exp_laboral {
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
 }

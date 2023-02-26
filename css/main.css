@@ -136,6 +136,12 @@
   margin-top: 100px;
 }
 
+.h2--exp_laboral {
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
 .grid--div {
   display: grid;
   grid-template-columns: auto auto;
